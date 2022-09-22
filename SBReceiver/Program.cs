@@ -10,8 +10,8 @@ namespace SBReceiver
 {
     class Program
     {
-        const string connectionString = "Endpoint=sb://sulmantariqservicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=e4n5kXR0QBNI7hRTnwihZuO8csSsbsSSt9ja/fp5C1o=";
-        const string queueName = "personqueue";
+        const string connectionString = "";
+        const string queueName = "";
         static IQueueClient queueClient;
 
         static async Task Main(string[] args)
